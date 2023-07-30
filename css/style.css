@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(50deg, #e2e2e2, #bdbdbd);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* topo e capa */
+header {
+    /* border: 1px solid red; */
+    /* background: #a5a5a5; */
+    text-align: center;
+    height: 85px;
+}
+
+/* config imgs carousel */
+#imgs-carousel {
+    width: 74%; 
+}
+.carousel-control-next, .carousel-control-prev {
+    /* border: 1px solid yellow; */
+    width: 8%;
+    margin-top: 150px;
+    margin-bottom: 150px
+}
+
+/* lista de imgs */
+section #list-imgs {
+    border: 1px solid #dfdede; 
+    border-radius: 4px; 
+    background: #f3f3f3;
+}
+
+/* Barra de navegação
+-----------------------------------*/
+nav.navbar-transparente {
+    padding: 10px 10px;
+    background: rgba(57, 55, 95, 0.6);
+    /* text-align: start; */
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255, 0.5);
+    border-color: rgba(255,255,255, 0.5);
+}
+
+
+/* ***********************************
+config para diferentes tamanhos de tela */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    
+    /* config imgs carousel */
+    /* #imgs-carousel {
+        width: 95%;
+        height: 330px;
+    } */
+
+    /* navegação */
+    nav.navbar-transparente {
+        padding: 6px 8px;
+        text-align: start;
+    }
+    .d-block {
+        display: inline-flex!important;
+    }
+}
+
+/* Small devices (landscap phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    /* config imgs carousel */
+    /* #imgs-carousel {
+        width: 95%;
+        height: 380px;
+    } */
+
+    /* navegação */
+    nav.navbar-transparente {
+        padding: 8px 8px;
+        text-align: start;
+    }
+    .d-block {
+        display: inline-flex!important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    /* config imgs carousel */
+    /* #imgs-carousel {
+        width: 95%;
+        height: 480px;
+    } */
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    /* config imgs carousel */
+    /* #imgs-carousel {
+        width: 95%;
+        height:480px;
+    } */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+    /* config imgs carousel */
+    #imgs-carousel {
+        width: 95%;
+        height: 520px;
+    }
+}
