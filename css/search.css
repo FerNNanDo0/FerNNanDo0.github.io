@@ -1,0 +1,107 @@
+
+/* area de pesquisa */
+#divBusca{
+    background-color: white;
+    border:solid 1px rgba(57, 55, 95, 0.6);
+    border-radius:15px;
+    width: 345.5px;
+    /* width: 80%; */
+    height: 34px;
+    text-align: center;
+    /* margin-left: 120px; */
+}
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    /* width:290px; */
+    /* width: 85%; */
+    margin-left: 11px;
+    outline: none;
+    /* border: 1px solid red; */
+}
+#btnBusca {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-color: white;
+    margin-top: 6px;
+    margin-right: 4px;
+}
+
+
+
+/* ***********************************
+config para diferentes tamanhos de tela */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* area de pesquisa */
+    #divBusca {
+        /* width: 345.5px; */
+        width: 76%;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    #txtBusca {
+        width: 86%;
+    }
+}
+
+/* Small devices (landscap phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* area de pesquisa */
+    #divBusca {
+        /* width: 345.5px; */
+        width: 80%;
+        margin-left: 25px;
+        margin-right: 20px;
+    }
+    #txtBusca {
+        width: 86%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* area de pesquisa */
+    #divBusca {
+        /* width: 345.5px; */
+        width: 100%;
+        margin-right: 25px;
+    }
+    #txtBusca {
+        width: 87%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* area de pesquisa */
+    #divBusca {
+        /* width: 345.5px; */
+        width: 70%;
+        margin-right: 25px;
+        margin-left: 100px;
+    }
+    #txtBusca {
+        width: 90%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /* area de pesquisa */
+    #divBusca {
+        /* width: 345.5px; */
+        width: 50%;
+        margin-left: 200px;
+    }
+    #txtBusca {
+        width: 92%;
+    }
+}

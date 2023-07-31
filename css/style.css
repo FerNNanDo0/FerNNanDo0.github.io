@@ -16,7 +16,9 @@ header {
 
 /* config imgs carousel */
 #imgs-carousel {
-    width: 74%; 
+    width: 500px;
+    border-radius: 7px 7px;
+    border: 1px solid transparent;
 }
 .carousel-control-next, .carousel-control-prev {
     /* border: 1px solid yellow; */
@@ -78,8 +80,8 @@ config para diferentes tamanhos de tela */
 
     /* config imgs carousel */
     /* #imgs-carousel {
-        width: 95%;
-        height: 380px;
+        width: 700px;
+        height: 390px;
     } */
 
     /* navegação */
@@ -117,8 +119,8 @@ config para diferentes tamanhos de tela */
 @media (min-width: 1200px) { 
     
     /* config imgs carousel */
-    #imgs-carousel {
+    /* #imgs-carousel {
         width: 95%;
         height: 520px;
-    }
+    } */
 }
