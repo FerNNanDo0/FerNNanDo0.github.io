@@ -28,7 +28,7 @@
     <![endif]-->
 
     
-    <!-- css icon whatsApp -->
+    <!-- css style icon whatsApp -->
     <link rel="stylesheet" id="whatswidget-style" type="text/css" 
       href="css/style-icon-whats.css">
 
@@ -36,6 +36,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- style normalize -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- style area de pesquisa -->
+    <link rel="stylesheet" type="text/css" href="css/search.css">
 
     <!-- icon da pagina -->
     <link rel="icon" href="imagens/icon-040.png" class="img-fluid">
@@ -51,11 +53,9 @@
           <div class="col-4">
             esquerda
           </div>
-
           <div class="col-4">
             center
           </div>
-
           <div class="col-4">
             direita
           </div>
@@ -72,6 +72,18 @@
             <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-main">
                <i class="fas fa-bars text-white"></i>
             </button>
+
+            <!-- area de pesquisa -->
+            <div id="divBusca">
+              <input type="search" id="txtBusca" aria-label="Pesquise seu produto" 
+                placeholder="Pesquise seu produto"/>
+
+                <!-- btn pesquisar -->
+              <button id="btnBusca" btn-click-search>
+                <i class="fas fa-search"></i>
+              </button>
+            </div> 
+            <!-- area de pesquisa -->
   
               <!-- Inicio Navegação -->
             <div class="collapse navbar-collapse" id="nav-main">
@@ -136,7 +148,7 @@
                 <div class="carousel-caption">
                   <div style="padding: 10px;">
                     <h3>Item 1</h3>
-                    <p>Descrição do primeiro produto</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                 </div>
               </div>
@@ -145,8 +157,8 @@
                 <img src="imagens/img-01.jpg" class="img-fluid" id="imgs-carousel">
                 <div class="carousel-caption">
                   <div style="padding: 10px;">
-                    <h3>Item 2</h3>
-                    <p>Descrição do segundo produto</p>
+                    <h3>Item 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                 </div>
               </div>
@@ -155,8 +167,8 @@
                 <img src="imagens/img-01.jpg" class="img-fluid" id="imgs-carousel">
                 <div class="carousel-caption">
                   <div style="padding: 10px;">
-                    <h3>Item 3</h3>
-                    <p>Descrição do terceiro produto</p>
+                    <h3>Item 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                   </div>
                 </div>
               </div>
@@ -265,7 +277,7 @@
             </div>
           </div>
 
-          <div id="whatswidget-conversation-message" class="whatswidget-conversation-message " style="all:revert;">
+          <div id="whatswidget-conversation-message" class="whatswidget-conversation-message "   style="all:revert;">
             <p>
               Após ecolher seus produtos nos informe no whatsapp,
               para a segurança de nossos clientes não aceitamos pagamentos direto pelo site.
