@@ -42,12 +42,12 @@ config para diferentes tamanhos de tela */
     /* area de pesquisa */
     #divBusca {
         /* width: 345.5px; */
-        width: 75%;
+        width: 72%;
         margin-left: 2px;
-        margin-right: 4px;
+        margin-right: 0px;
     }
     #txtBusca {
-        width: 78%;
+        width: 74%;
     }
 }
 
