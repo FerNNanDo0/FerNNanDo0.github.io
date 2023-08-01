@@ -24,7 +24,7 @@ header {
     /* border: 1px solid yellow; */
     width: 8%;
     margin-top: 150px;
-    margin-bottom: 150px
+    margin-bottom: 150px;
 }
 
 /* lista de imgs */
@@ -32,6 +32,9 @@ section #list-imgs {
     border: 1px solid #dfdede; 
     border-radius: 4px; 
     background: #f3f3f3;
+}
+* a {
+    text-decoration: none;
 }
 
 /* Barra de navegação
