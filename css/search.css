@@ -37,17 +37,17 @@
 
 /* ***********************************
 config para diferentes tamanhos de tela */
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     /* area de pesquisa */
     #divBusca {
-        /* width: 345.5px; */
-        width: 72%;
-        margin-left: 2px;
-        margin-right: 0px;
+        width: 75%;
+        /* margin-left: 0px; */
+        margin-right: 12px;
     }
     #txtBusca {
-        width: 74%;
+        width: 78%;
     }
 }
 
@@ -55,7 +55,6 @@ config para diferentes tamanhos de tela */
 @media (min-width: 576px) and (max-width: 767.98px) { 
     /* area de pesquisa */
     #divBusca {
-        /* width: 345.5px; */
         width: 80%;
         margin-left: 25px;
         margin-right: 20px;
