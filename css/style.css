@@ -27,15 +27,32 @@ header {
     margin-bottom: 150px;
 }
 
-/* lista de imgs */
+/* lista de imgs e produtos */
 section #list-imgs {
     border: 1px solid #dfdede; 
     border-radius: 4px; 
     background: #f3f3f3;
 }
+
 * a {
     text-decoration: none;
 }
+h5 {
+    color: blue;
+}
+.real {
+    color: green;
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+}
+p {
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-size: small;
+}
+
 
 /* Barra de navegação
 -----------------------------------*/
@@ -61,12 +78,10 @@ config para diferentes tamanhos de tela */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-    
-    /* config imgs carousel */
-    /* #imgs-carousel {
-        width: 95%;
-        height: 330px;
-    } */
+    /* lista de imgs e produtos */
+    section #list-imgs {
+        width: 159px;
+    }
 
     /* navegação */
     nav.navbar-transparente {
@@ -76,16 +91,32 @@ config para diferentes tamanhos de tela */
     .d-block {
         display: inline-flex!important;
     }
+
+    /* lista de produtos */
+    h5 {
+        font-size: 13px;
+        color: rgb(1, 1, 201);
+    }
+    .real {
+        font-size: 11.5px;
+        color: green;
+        padding: 0;
+        margin: 0;
+    }
+    p {
+        font-size: 10.5px;
+        color: #3d3d3d;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 /* Small devices (landscap phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
-
-    /* config imgs carousel */
-    /* #imgs-carousel {
-        width: 700px;
-        height: 390px;
-    } */
+    /* lista de imgs e produtos */
+    section #list-imgs {
+        width: 175px;
+    }
 
     /* navegação */
     nav.navbar-transparente {
@@ -94,6 +125,24 @@ config para diferentes tamanhos de tela */
     }
     .d-block {
         display: inline-flex!important;
+    }
+
+    /* lista de produtos */
+    h5 {
+        font-size: 13.5px;
+        color: rgb(1, 1, 201);
+    }
+    .real {
+        font-size: 11.9px;
+        color: green;
+        padding: 0;
+        margin: 0;
+    }
+    p {
+        font-size: 10.9px;
+        color: #3d3d3d;
+        padding: 0;
+        margin: 0;
     }
 }
 
@@ -106,6 +155,11 @@ config para diferentes tamanhos de tela */
         height: 480px;
     } */
 
+    /* lista de imgs e produtos */
+    section #list-imgs {
+        width: 235px;
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -116,6 +170,11 @@ config para diferentes tamanhos de tela */
         width: 95%;
         height:480px;
     } */
+
+    /* lista de imgs e produtos */
+    section #list-imgs {
+        width: 315px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
