@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background:linear-gradient(50deg, #e2e2e2, #bdbdbd);
+    background:linear-gradient(50deg, #3d3c3c, #2b2a2a);
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -57,7 +57,7 @@ p {
 /* Barra de navegação
 -----------------------------------*/
 nav.navbar-transparente {
-    padding: 6px 8px;
+    padding: 3px 8px;
     background: rgba(57, 55, 95, 0.6);
     /* text-align: start; */
 }
@@ -83,7 +83,7 @@ config para diferentes tamanhos de tela */
 
     /* navegação */
     nav.navbar-transparente {
-        padding: 6px 8px;
+        padding: 8px 8px;
         text-align: start;
     }
     .d-block {
