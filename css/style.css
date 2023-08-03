@@ -58,7 +58,15 @@ p {
 -----------------------------------*/
 nav.navbar-transparente {
     padding: 3px 8px;
-    background: rgba(57, 55, 95, 0.6);
+    background-attachment: fixed;
+    background: linear-gradient(
+            0.25turn,
+            rgba(20, 6, 88, 0.65),
+            rgba(62, 74, 77, 0.75),
+            rgba(20, 6, 88, 0.65)
+    );
+    /* background:linear-gradient(25deg, rgba(255, 255, 255, 0.65), rgba(20, 6, 88, 0.65)); */
+    /* background: rgba(31, 24, 68, 0.65); */
     /* text-align: start; */
 }
 .navbar-light .navbar-nav .nav-link {
