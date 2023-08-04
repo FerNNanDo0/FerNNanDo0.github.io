@@ -29,9 +29,27 @@ header {
 
 /* lista de imgs e produtos */
 section #list-imgs {
-    border: 1px solid #dfdede; 
-    border-radius: 4px; 
+    border: 1px solid transparent; 
+    border-radius: 3px;
     background: #f3f3f3;
+}
+section #list-imgs img {
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+#elevacao {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    position: relative
+}
+#elevacao:hover {
+    box-shadow: 0 5px 8px rgba(255, 255, 255, 0.76);
+    padding: 3px;
+    transition: all .4s ease;
+    opacity: 1;
+    border-radius: 3px;
 }
 
 * a {
