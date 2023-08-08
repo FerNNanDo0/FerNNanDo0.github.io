@@ -28,25 +28,28 @@ header {
 }
 
 /* lista de imgs e produtos */
-section #list-imgs {
-    border: 1px solid transparent; 
-    border-radius: 3px;
-    background: #f3f3f3;
+section #div-imgs {
+    border-bottom: 0.5px solid rgb(75, 75, 75); 
+    border-radius: 5px;
+    /* background: #f3f3f3; */
 }
-section #list-imgs img {
+section #div-imgs img {
     border: 1px solid transparent;
-    border-radius: 3px;
+    border-radius: 2px;
 }
+/* #div-produto {
 
+} */
 #elevacao {
+    width: 95%;
     display: flex;
     flex-direction: column;
-    padding: 12px;
+    padding: 0px;
     position: relative
 }
 #elevacao:hover {
-    box-shadow: 0 5px 8px rgba(255, 255, 255, 0.76);
-    padding: 3px;
+    box-shadow: 0 6px 10px rgba(255, 255, 255, 0.705);
+    padding: 0px;
     transition: all .4s ease;
     opacity: 1;
     border-radius: 3px;
@@ -56,16 +59,16 @@ section #list-imgs img {
     text-decoration: none;
 }
 h5 {
-    color: blue;
+    color: rgb(226, 226, 241);
 }
 .real {
-    color: green;
+    color: rgb(219, 240, 219);
     padding: 0;
     margin: 0;
     font-size: medium;
 }
 p {
-    color: black;
+    color: white;
     padding: 0;
     margin: 0;
     font-size: small;
