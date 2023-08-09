@@ -4,7 +4,7 @@
     background-color: white;
     border:solid 1px rgba(57, 55, 95, 0.6);
     border-radius:15px;
-    width: 345.5px;
+    width: 344.5px;
     /* width: 80%; */
     height: 34px;
     text-align: center;
@@ -19,7 +19,7 @@
     border:none;
     height:32px;
     /* width:290px; */
-    /* width: 85%; */
+    width: 88%;
     margin-left: 11px;
     outline: none;
     /* border: 1px solid red; */
@@ -47,7 +47,7 @@ config para diferentes tamanhos de tela */
         margin-right: 12px;
     }
     #txtBusca {
-        width: 78%;
+        width: 79%;
     }
 }
 
@@ -60,7 +60,7 @@ config para diferentes tamanhos de tela */
         margin-right: 20px;
     }
     #txtBusca {
-        width: 90%;
+        width: 88%;
     }
 }
 
@@ -72,9 +72,9 @@ config para diferentes tamanhos de tela */
         width: 100%;
         margin-right: 25px;
     }
-    #txtBusca {
+    /* #txtBusca {
         width: 87%;
-    }
+    } */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -86,9 +86,9 @@ config para diferentes tamanhos de tela */
         margin-right: 25px;
         margin-left: 100px;
     }
-    #txtBusca {
+    /* #txtBusca {
         width: 90%;
-    }
+    } */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -99,7 +99,7 @@ config para diferentes tamanhos de tela */
         width: 50%;
         margin-left: 200px;
     }
-    #txtBusca {
-        width: 92%;
-    }
+    /* #txtBusca {
+        width: 91%;
+    } */
 }
