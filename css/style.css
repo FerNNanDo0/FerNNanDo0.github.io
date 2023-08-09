@@ -120,7 +120,7 @@ config para diferentes tamanhos de tela */
     }
 
     /* lista de produtos */
-    h5 {
+    section h5 {
         font-size: 13px;
     }
     .real {
@@ -128,7 +128,7 @@ config para diferentes tamanhos de tela */
         padding: 0;
         margin: 0;
     }
-    p {
+    section p {
         font-size: 10.5px;
         padding: 0;
         margin: 0;
@@ -149,7 +149,7 @@ config para diferentes tamanhos de tela */
     }
 
     /* lista de produtos */
-    h5 {
+    section h5 {
         font-size: 13.5px;
     }
     .real {
@@ -157,7 +157,7 @@ config para diferentes tamanhos de tela */
         padding: 0;
         margin: 0;
     }
-    p {
+    section p {
         font-size: 10.9px;
         padding: 0;
         margin: 0;
