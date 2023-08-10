@@ -15,7 +15,7 @@ header {
     /* background: #a5a5a5; */
     background:linear-gradient(50deg, #616161, #535252);
     text-align: center;
-    height: 65px;
+    height: 64px;
 }
 
 /* Barra de navegação
@@ -49,7 +49,7 @@ nav.navbar-transparente {
 
 /* config imgs carousel */
 #imgs-carousel {
-    width: 67%;
+    width: 570px;
     border-radius: 7px 7px;
     border: 1px solid transparent;
 }
@@ -84,7 +84,7 @@ section #div-imgs img {
     position: relative;
 }
 #elevacao:hover {
-    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.877);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.877);
     padding: 0px;
     transition: all .4s ease;
     opacity: 1;
@@ -97,6 +97,7 @@ section #div-imgs img {
 section h5 {
     /* color: rgb(226, 226, 241); */
     color: rgb(18, 18, 109);
+    margin-bottom: auto !important;
 }
 .real {
     /* color: rgb(219, 240, 219); */
@@ -117,9 +118,6 @@ config para diferentes tamanhos de tela */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-    /* lista de imgs e produtos */
-
-
     /* navegação */
     nav.navbar-transparente {
         padding: 8px 8px;
@@ -131,24 +129,32 @@ config para diferentes tamanhos de tela */
 
     /* lista de produtos */
     section h5 {
-        font-size: 13px;
+        font-size: 11.5px;
     }
     .real {
-        font-size: 11.5px;
+        font-size: 10.2px;
         padding: 0;
         margin: 0;
     }
     section p {
-        font-size: 10.5px;
+        font-size: 9.5px;
         padding: 0;
         margin: 0;
     }
+
+    header {
+        height: 52px;
+    }
+
+    /* config imgs carousel */
+    #imgs-carousel {
+        width: 380px;
+    }
+   
 }
 
 /* Small devices (landscap phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    /* lista de imgs e produtos */
-    
     /* navegação */
     nav.navbar-transparente {
         padding: 8px 8px;
@@ -160,17 +166,26 @@ config para diferentes tamanhos de tela */
 
     /* lista de produtos */
     section h5 {
-        font-size: 13.5px;
+        font-size: 12.2px;
     }
     .real {
-        font-size: 11.9px;
+        font-size: 11.2px;
         padding: 0;
         margin: 0;
     }
     section p {
-        font-size: 10.9px;
+        font-size: 9.7px;
         padding: 0;
         margin: 0;
+    }
+
+    header {
+        height: 52px;
+    }
+
+    /* config imgs carousel */
+    #imgs-carousel {
+        width:85%;
     }
 }
 
@@ -182,6 +197,10 @@ config para diferentes tamanhos de tela */
         width: 235px;
     }
 
+    /* config imgs carousel */
+    #imgs-carousel {
+        width: 455px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -191,9 +210,14 @@ config para diferentes tamanhos de tela */
     section #list-imgs {
         width: 315px;
     }
+
+    /* config imgs carousel */
+    #imgs-carousel {
+        width: 570px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+  
 }
