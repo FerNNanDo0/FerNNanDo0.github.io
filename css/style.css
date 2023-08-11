@@ -35,7 +35,6 @@ nav.navbar-transparente {
     /* background:linear-gradient(25deg, rgba(255, 255, 255, 0.65), rgba(20, 6, 88, 0.65)); */
     /* background: rgba(31, 24, 68, 0.65); */
     /* text-align: start; */
-    
 }
 .navbar-light .navbar-nav .nav-link {
     color: white;
@@ -48,7 +47,12 @@ nav.navbar-transparente {
     border-color: rgba(255,255,255, 0.5);
     box-shadow: none;
 }
-
+nav ul li a i {
+    font-size:125%!important;
+}
+nav ul li a span {
+    font-size:125%!important;
+}
 
 /* config imgs carousel */
 #imgs-carousel {
@@ -134,6 +138,12 @@ config para diferentes tamanhos de tela */
     }
     .d-block {
         display: inline-flex!important;
+    }
+    nav ul li a i {
+        font-size:100%!important;
+    }
+    nav ul li a span {
+        font-size:100%!important;
     }
 
     /* lista de produtos */

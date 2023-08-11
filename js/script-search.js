@@ -1,6 +1,6 @@
 $(function(){
 
-    let obs = [
+    const obs = [
         'Cores: preta, branca, marron.',
         'Cores: preta, branca.',
         'Cores: preta, branca.',
@@ -10,24 +10,27 @@ $(function(){
         'Cores: preta, branca, cinza.',
         'Cores: preta, branca, cinza.',
         'Cores: preta, branca, cinza.',
-    ]
-
+    ];
+    
     const produtos = [
-        {'item':'Camisa Hight', 'img':'img-01.jpg', 'preco':'50,00', 'desc':obs[0]},
-        {'item':'Bermuda Jeans', 'img':'img-01.jpg', 'preco':'70,00', 'desc':obs[1]},
-        {'item':'Calça 0.40', 'img':'img-01.jpg', 'preco':'100,00', 'desc':obs[2]},
-        {'item':'Camisa Nike', 'img':'img-01.jpg', 'preco':'98,90', 'desc':obs[3]},
-        {'item':'Tênis Nike', 'img':'img-01.jpg', 'preco':'350,00', 'desc':obs[4]},
+        {item:'Camisa Hight', img:'img-01.jpg', preco:'50,00', desc:obs[0]},
+        {item:'Bermuda Jeans', img:'img-01.jpg', preco:'70,00', desc:obs[1]},
+        {item:'Calça 0.40', img:'img-01.jpg', preco:'100,00', desc:obs[2]},
+    
+        {item:'Camisa Nike', img:'img-01.jpg', preco:'98,90', desc:obs[3]},
+        {item:'Tênis Nike', img:'img-01.jpg', preco:'350,00', desc:obs[4]},
+        {item:'Tênis Nike2', img:'img-01.jpg', preco:'350,00', desc:obs[4]},
+    
+        {item:'Tênis Nike3', img:'img-01.jpg', preco:'350,00', desc:obs[4]},
+        {item:'Tênis Nike4', img:'img-01.jpg', preco:'350,00', desc:obs[4]},
+        {item:'Tênis Ous', img:'img-01.jpg', preco:'400,00', desc:obs[5]},
+    
+        {item:'Tênis Adidas', img:'img-01.jpg', preco:'300,00', desc:obs[6]},
+        {item:'Camisa Diamond', img:'img-01.jpg', preco:'00,00', desc:obs[7]},
+        {item:'Moletom 0.40', img:'img-01.jpg', preco:'00,00', desc:obs[8]}
+        // ... adicione mais objetos conforme necessário
+    ];
 
-        {'item':'Tênis Nike2', 'img':'img-01.jpg', 'preco':'350,00', 'desc':obs[4]},
-        {'item':'Tênis Nike3', 'img':'img-01.jpg', 'preco':'350,00', 'desc':obs[4]},
-        {'item':'Tênis Nike4', 'img':'img-01.jpg', 'preco':'350,00', 'desc':obs[4]},
-
-        {'item':'Tênis Ous', 'img':'img-01.jpg', 'preco':'400,00', 'desc':obs[5]},
-        {'item':'Tênis Adidas', 'img':'img-01.jpg', 'preco':'300,00', 'desc':obs[6]},
-        {'item':'Camisa Diamond', 'img':'img-01.jpg', 'preco':'00,00', 'desc':obs[7]},
-        {'item':'Moletom 0.40', 'img':'img-01.jpg', 'preco':'00,00', 'desc':obs[8]}
-    ]
 
     // eliminando acentuação
     function removerSpecials(texto) { 

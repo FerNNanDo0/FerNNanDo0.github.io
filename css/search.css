@@ -75,9 +75,7 @@ config para diferentes tamanhos de tela */
     #txtBusca {
         width: 88%;
     }
-    #btnBusca {
-        /* margin-right: -5%; */
-    }
+
 }
 
 /* Medium devices (tablets, 768px and up) */

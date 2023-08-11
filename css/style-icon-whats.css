@@ -53,11 +53,11 @@
 /* TAMANHO DO TITULO DA PRIMEIRA MSG */
 .whatswidget-text-header-outer {
     font-weight: bold !important;
-    font-size: 90% !important
+    font-size: 100% !important
 }
 /* TAMANHO DO TEXTO DA PRIMEIRA MSG */
 .whatswidget-text-message-outer {
-    font-size: 90% !important
+    font-size: 100% !important
 }
 /* botao de enviar conversa */
 .whatswidget-conversation-cta {
