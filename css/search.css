@@ -13,14 +13,14 @@
 #txtBusca{
     float:left;
     background-color:transparent;
-    padding-left:5px;
+    padding-left:0;
     font-style:italic;
     font-size:18px;
     border:none;
     height:32px;
     /* width:290px; */
-    width: 88%;
-    margin-left: 11px;
+    /* width: 88%; */
+    margin-left: 3%;
     outline: none;
     /* border: 1px solid red; */
 }
@@ -29,18 +29,22 @@
     outline: none;
     border: none;
     background-color: white;
-    margin-top: 6px;
-    margin-right: 4px;
+    margin-top: 5px;
+    /* margin-right: -8%; */
 }
 
 /* filtro de pesquisa */
+/* #list-itens {
+    border: 1px solid yellow;
+    
+} */
 #list-search {
     /* border: 1px solid red; */
     text-align: center;
+    width: 25%;
 }
-#list-search #elevacao {
-    margin-left: 15px;
-}
+/* #list-search #elevacao {
+} */
 
 
 /* ***********************************
@@ -50,12 +54,14 @@ config para diferentes tamanhos de tela */
 @media (max-width: 575.98px) { 
     /* area de pesquisa */
     #divBusca {
-        width: 75%;
-        /* margin-left: 0px; */
-        margin-right: 12px;
+        width: 75.5%;
+        margin-right: 10%;
     }
     #txtBusca {
-        width: 79%;
+        width: 81.5%;
+    }
+    #btnBusca {
+        margin-right: -1%;
     }
 }
 
@@ -64,11 +70,13 @@ config para diferentes tamanhos de tela */
     /* area de pesquisa */
     #divBusca {
         width: 80%;
-        margin-left: 25px;
-        margin-right: 20px;
+        margin-right: 9%;
     }
     #txtBusca {
         width: 88%;
+    }
+    #btnBusca {
+        /* margin-right: -5%; */
     }
 }
 
@@ -78,11 +86,14 @@ config para diferentes tamanhos de tela */
     #divBusca {
         /* width: 345.5px; */
         width: 100%;
-        margin-right: 25px;
+        margin-right: 2%;
     }
-    /* #txtBusca {
+    #txtBusca {
         width: 87%;
-    } */
+    }
+    #btnBusca {
+        margin-right: -2%;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -90,13 +101,13 @@ config para diferentes tamanhos de tela */
     /* area de pesquisa */
     #divBusca {
         /* width: 345.5px; */
-        width: 70%;
-        margin-right: 25px;
-        margin-left: 100px;
+        width: 60%;
+        margin-right: 10px;
+        margin-left: 185px;
     }
-    /* #txtBusca {
+    #txtBusca {
         width: 90%;
-    } */
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -104,10 +115,13 @@ config para diferentes tamanhos de tela */
     /* area de pesquisa */
     #divBusca {
         /* width: 345.5px; */
-        width: 50%;
-        margin-left: 200px;
+        width: 53%;
+        margin-left: 285px;
     }
-    /* #txtBusca {
+    #txtBusca {
         width: 91%;
+    }
+    /* #btnBusca {
+        margin-right: -1%;
     } */
 }

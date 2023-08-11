@@ -1,15 +1,15 @@
 $(function(){
 
     let obs = [
-        'Cores: preta, branca, marron. Tamanhos: P,M,G,GG',
-        'Cores: preta, branca. Tamanhos: P,M,G,GG',
-        'Cores: preta, branca. Tamanhos: P,M,G,GG',
-        'Cores: preta, branca, cinza. Tamanhos: P,M,G,GG',
-        'Cores: preta, branca, cinza. Tamanhos: 37,39,41',
-        'Cores: preta, branca, cinza. Tamanhos: 38,39,40',
-        'Cores: preta, branca, cinza. Tamanhos: 39,40',
-        'Cores: preta, branca, cinza. Tamanhos: P,M,G,GG',
-        'Cores: preta, branca, cinza. Tamanhos: P,M,G,GG',
+        'Cores: preta, branca, marron.',
+        'Cores: preta, branca.',
+        'Cores: preta, branca.',
+        'Cores: preta, branca, cinza.',
+        'Cores: preta, branca, cinza.',
+        'Cores: preta, branca, cinza.',
+        'Cores: preta, branca, cinza.',
+        'Cores: preta, branca, cinza.',
+        'Cores: preta, branca, cinza.',
     ]
 
     const produtos = [
@@ -44,26 +44,32 @@ $(function(){
     function search(txtBusca){
         let item = ''
         for( index in produtos ){
+            // converter nome do produto pra letras minusculas
             let produto = produtos[index].item.toLowerCase();
+            // tirar acentuções dos nomes 
             produto = removerSpecials(produto)
+            txtBusca = removerSpecials(txtBusca)
 
             // verifica se o nome ta na lista
             if( produto.includes( txtBusca.toLowerCase() ) ){
               /*console.log(`${produtos[index].item} ${produtos[index].img} 
                             R$${produtos[index].preco} ${produtos[index].desc}`);*/
                 
+                
                 let htmlList = $('#list-itens');
+                // ocultar elementos html
                 $('#banner').hide()
                 $('#div-carousel').hide()
                 $('[name=whats]').hide()
 
                 item += 
-                `<div class="d-inline-flex w-25 h-25 float-left mb-3 text-center" id="list-search">
+                `
+                <div class="d-inline-flex float-left mb-2 text-center" id="list-search">
                   <a href="#" class="card-link" id="elevacao">
                    <div id="div-imgs">
                      <img src="imagens/${produtos[index].img}" class="img-fluid">
-                     <h5>${produtos[index].item}</h5>
-                     <p>${produtos[index].desc}</p>
+                     <h5 class="titulo">${produtos[index].item}</h5>
+                     <p class="texto">${produtos[index].desc}</p>
                      <p class="real">R$${produtos[index].preco}</p>
                    </div>
                   </a>

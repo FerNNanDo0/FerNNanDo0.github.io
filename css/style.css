@@ -8,6 +8,9 @@ body {
     /* overflow-x: hidden; */
     /* width: 100%; */
 }
+* a {
+    text-decoration: none;
+}
 
 /* topo e capa */
 header {
@@ -21,7 +24,7 @@ header {
 /* Barra de navegação
 -----------------------------------*/
 nav.navbar-transparente {
-    padding: 3px 8px;
+    padding: 3px 0;
     background-attachment: fixed;
     background: linear-gradient(
             0.25turn,
@@ -49,7 +52,7 @@ nav.navbar-transparente {
 
 /* config imgs carousel */
 #imgs-carousel {
-    width: 570px;
+    width: 100%;
     border-radius: 7px 7px;
     border: 1px solid transparent;
 }
@@ -76,23 +79,29 @@ section #div-imgs img {
     border: 0.5px solid transparent;
     border-radius: 3px;
 }
-#elevacao {
+section #list-itens {
+    border: 1px solid white;
+    width: auto;
+    /* display: contents; */
+}
+
+section #list-itens {
+    border: 1px solid white;
+}
+section #elevacao {
     width: 90%;
     display: flex;
     flex-direction: column;
     padding: 0px;
     position: relative;
+    left: 5%;
 }
-#elevacao:hover {
+section #elevacao:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.877);
     padding: 0px;
     transition: all .4s ease;
     opacity: 1;
     border-radius: 4px;
-}
-
-* a {
-    text-decoration: none;
 }
 section h5 {
     /* color: rgb(226, 226, 241); */
@@ -128,6 +137,9 @@ config para diferentes tamanhos de tela */
     }
 
     /* lista de produtos */
+    section #list-itens {
+        margin-left: auto;
+    }
     section h5 {
         font-size: 11.5px;
     }
@@ -147,9 +159,6 @@ config para diferentes tamanhos de tela */
     }
 
     /* config imgs carousel */
-    #imgs-carousel {
-        width: 380px;
-    }
    
 }
 
@@ -184,9 +193,6 @@ config para diferentes tamanhos de tela */
     }
 
     /* config imgs carousel */
-    #imgs-carousel {
-        width:85%;
-    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -195,12 +201,10 @@ config para diferentes tamanhos de tela */
     /* lista de imgs e produtos */
     section #list-imgs {
         width: 235px;
+        margin-left: auto;
     }
 
     /* config imgs carousel */
-    #imgs-carousel {
-        width: 455px;
-    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -209,15 +213,17 @@ config para diferentes tamanhos de tela */
     /* lista de imgs e produtos */
     section #list-imgs {
         width: 315px;
+        margin-left: 24px!important;
     }
 
-    /* config imgs carousel */
-    #imgs-carousel {
-        width: 570px;
-    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
+    /* lista de imgs e produtos */
   
+    /* config imgs carousel */
+    #imgs-carousel {
+        width: 70%;
+    }
 }
