@@ -79,8 +79,7 @@
 
             <!-- area de pesquisa -->
             <div id="divBusca" class="container">
-              <input type="search" id="txtBusca" name="txtBusca" aria-label="Pesquise seu produto" placeholder="Pesquise seu produto" autocomplete="off"
-              maxlength="30"/>
+              <input type="search" id="txtBusca" name="txtBusca" aria-label="Pesquise seu produto" placeholder="Pesquise seu produto" autocomplete="off" maxlength="30"/>
 
                 <!-- btn pesquisar -->
               <button id="btnBusca" btn-click-search>
@@ -195,16 +194,16 @@
     </div>
     <!-- Container carrousel -->
 
-    <!-- barnner -->
-    <div style="border:1px solid rgb(102, 102, 102); height:150px; background:white;">
+    <!-- banner -->
+    <div id="banner" style="border:1px solid rgb(102, 102, 102); height:150px; background:white;">
       <div class="container text-center">
-        conteudo barner
+        conteudo banner
       </div>
     </div>
 
     <!-- Inicio da sessão produtos -->
     <section class="pt-2" >
-      <div class="container">
+      <div class="container" id="list-itens">
 
         <!-- linha 1 -->
         <div class="row mb-2 text-center pl-3">
@@ -354,7 +353,7 @@
         </div>
         <!-- Fim da area de exibição -->
 
-        <div id="whatswidget-conversation-message-outer" class="whatswidget-conversation-message-outer">
+        <div id="whatswidget-conversation-message-outer" name="whats"  class="whatswidget-conversation-message-outer">
 
           <span id="whatswidget-text-header-outer" class="whatswidget-text-header-outer" style="all:revert;">
             0.40 Store
@@ -382,7 +381,7 @@
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, Popper.js segundo, Bootstrap-4 terceiro -->
-<!--<script src="js-config/jquery-3.3.1.slim.min.js"></script>
+    <!--<script src="js-config/jquery-3.3.1.slim.min.js"></script>
     <script src="js-config/popper.min.js"></script>
     <script src="js-config/bootstrap.min.js"></script>-->
     <script 

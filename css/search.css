@@ -33,6 +33,14 @@
     margin-right: 4px;
 }
 
+/* filtro de pesquisa */
+#list-search {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+#list-search #elevacao {
+    margin-left: 15px;
+}
 
 
 /* ***********************************
