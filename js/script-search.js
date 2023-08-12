@@ -71,8 +71,8 @@ $(function(){
                   <a href="#" class="card-link" id="elevacao">
                    <div id="div-imgs">
                      <img src="imagens/${produtos[index].img}" class="img-fluid">
-                     <h5 class="titulo">${produtos[index].item}</h5>
-                     <p class="texto">${produtos[index].desc}</p>
+                     <h5 class="titulo text-truncate">${produtos[index].item}</h5>
+                     <p class="texto text-truncate">${produtos[index].desc}</p>
                      <p class="real">R$${produtos[index].preco}</p>
                    </div>
                   </a>

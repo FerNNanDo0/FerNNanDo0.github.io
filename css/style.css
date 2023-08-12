@@ -71,14 +71,15 @@ nav ul li a span {
     /* border: 0.5px solid #ffffff; */
 }
 
-/* lista de imgs e produtos */
+/* lista de imgs e produtos 
 section #div-imgs {
-    /* background:linear-gradient(50deg, #3d3c3c, #2b2a2a); */
-    /* border-bottom: 0.5px solid rgb(75, 75, 75);  */
+    background:linear-gradient(50deg, #3d3c3c, #2b2a2a);
+    border-bottom: 0.5px solid rgb(75, 75, 75); 
     border-bottom: 0.5px solid rgba(207, 207, 207, 0.705);
     border-radius: 6px;
-    /* background: #ffffff; */
+    background: #ffffff;
 }
+*/
 section #div-imgs img {
     border: 0.5px solid transparent;
     border-radius: 3px;
@@ -94,11 +95,16 @@ section #list-itens {
 }
 section #elevacao {
     width: 90%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
     padding: 0px;
     position: relative;
     left: 5%;
+    border-bottom: 0.5px solid rgba(207, 207, 207, 0.705);
+    border-radius: 6px;
 }
 section #elevacao:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.877);
@@ -110,7 +116,8 @@ section #elevacao:hover {
 section h5 {
     /* color: rgb(226, 226, 241); */
     color: rgb(18, 18, 109);
-    margin-bottom: auto !important;
+    margin-top: 2px!important;
+    margin-bottom: auto;
 }
 .real {
     /* color: rgb(219, 240, 219); */
@@ -124,6 +131,7 @@ section p {
     padding: 0;
     margin: 0;
     font-size: small;
+    margin-bottom: 2px;
 }
 
 /* ***********************************
@@ -147,6 +155,11 @@ config para diferentes tamanhos de tela */
     }
 
     /* lista de produtos */
+    section #elevacao {
+        height: 100%;
+        min-height: 100%;
+        max-height: 100%;
+    }
     section #list-itens {
         margin-left: auto;
     }
@@ -155,13 +168,9 @@ config para diferentes tamanhos de tela */
     }
     .real {
         font-size: 10.2px;
-        padding: 0;
-        margin: 0;
     }
     section p {
         font-size: 9.5px;
-        padding: 0;
-        margin: 0;
     }
 
     header {
@@ -184,18 +193,19 @@ config para diferentes tamanhos de tela */
     }
 
     /* lista de produtos */
+    section #elevacao {
+        height: 100%;
+        min-height: 100%;
+        max-height: 100%;
+    }
     section h5 {
         font-size: 12.2px;
     }
     .real {
         font-size: 11.2px;
-        padding: 0;
-        margin: 0;
     }
     section p {
         font-size: 9.7px;
-        padding: 0;
-        margin: 0;
     }
 
     header {

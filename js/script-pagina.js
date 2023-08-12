@@ -18,16 +18,16 @@ $(function(){
         {item:'Calça 0.40', img:'img-01.jpg', preco:'100,00', desc:obs[2]},
     
         {item:'Camisa Nike', img:'img-01.jpg', preco:'98,90', desc:obs[3]},
-        {item:'Tênis Nike', img:'img-01.jpg', preco:'350,00', desc:obs[4]},
-        {item:'Tênis Nike2', img:'img-01.jpg', preco:'350,00', desc:obs[4]},
+        {item:'Tênis Nike', img:'img-01.jpg', preco:'380,00', desc:obs[4]},
+        {item:'Tênis Nike2', img:'img-01.jpg', preco:'310,00', desc:obs[4]},
     
         {item:'Tênis Nike3', img:'img-01.jpg', preco:'350,00', desc:obs[4]},
-        {item:'Tênis Nike4', img:'img-01.jpg', preco:'350,00', desc:obs[4]},
+        {item:'Tênis Nike4', img:'img-01.jpg', preco:'390,00', desc:obs[4]},
         {item:'Tênis Ous', img:'img-01.jpg', preco:'400,00', desc:obs[5]},
     
         {item:'Tênis Adidas', img:'img-01.jpg', preco:'300,00', desc:obs[6]},
-        {item:'Camisa Diamond', img:'img-01.jpg', preco:'00,00', desc:obs[7]},
-        {item:'Moletom 0.40', img:'img-01.jpg', preco:'00,00', desc:obs[8]}
+        {item:'Camisa Diamond', img:'img-01.jpg', preco:'93,00', desc:obs[7]},
+        {item:'Moletom 0.40', img:'img-01.jpg', preco:'49,90', desc:obs[8]}
         // ... adicione mais objetos conforme necessário
     ];
 
@@ -40,7 +40,7 @@ $(function(){
         let nameOne = batch[0]
         let nameTwo = batch[1]
         let nameThree = batch[2]
-        //console.log( nameOne.item, nameTwo.item, nameThree.item )
+        //console.log( nameOne.preco, nameTwo.preco, nameThree.preco )
 
         item += 
         `
@@ -51,32 +51,35 @@ $(function(){
             <a href="#" class="card-link" id="elevacao">
               <div id="div-imgs">
                 <img src="imagens/${nameOne.img}" class="img-fluid">
-                <h5 class="titulo">${nameOne.item}</h5>
-                <p class="texto">${nameOne.desc}</p>
-                <p class="real">R$${nameTwo.preco}</p>
+                <h5 class="titulo text-truncate">${nameOne.item}</h5>
+                <p class="texto text-truncate">${nameOne.desc}</p>
+                
               </div>
+              <p class="real">R$${nameOne.preco}</p>
             </a>
           </div>
           <!-- produto - 2 -->
           <div class="col-4 pl-md-5 p-0">
             <a href="#" class="card-link" id="elevacao">
               <div id="div-imgs">
-                <img src="imagens/${nameOne.img}" class="img-fluid">
-                <h5 class="titulo">${nameTwo.item}</h5>
-                <p class="texto">${nameOne.desc}</p>
-                <p class="real">R$${nameTwo.preco}</p>
+                <img src="imagens/${nameTwo.img}" class="img-fluid">
+                <h5 class="titulo text-truncate">${nameTwo.item}</h5>
+                <p class="texto text-truncate">${nameTwo.desc}</p>
+                
               </div>
+              <p class="real">R$${nameTwo.preco}</p>
             </a>
           </div>
           <!-- produto - 3 -->
           <div class="col-4 pl-md-5 p-0">
             <a href="#" class="card-link" id="elevacao">
               <div id="div-imgs">
-                <img src="imagens/${nameOne.img}" class="img-fluid">
-                <h5 class="titulo">${nameThree.item}</h5>
-                <p class="texto">${nameOne.desc}</p>
-                <p class="real">R$${nameTwo.preco}</p>
+                <img src="imagens/${nameThree.img}" class="img-fluid">
+                <h5 class="titulo text-truncate">${nameThree.item}</h5>
+                <p class="texto text-truncate">${nameThree.desc}</p>
+                
               </div>
+              <p class="real">R$${nameThree.preco}</p>
             </a>
           </div>
         </div>
