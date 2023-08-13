@@ -133,6 +133,15 @@ section p {
     font-size: small;
     margin-bottom: 2px;
 }
+/* config rodape */
+footer {
+    height: 250px;
+    margin-top: 1px;
+    background:linear-gradient(50deg, #616161, #535252);
+}
+footer label {
+    color: white;
+}
 
 /* ***********************************
 config para diferentes tamanhos de tela */
