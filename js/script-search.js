@@ -64,10 +64,12 @@ $(function(){
                 $('#banner').hide()
                 $('#div-carousel').hide()
                 $('[name=whats]').hide()
+                $('footer').hide()
+                $('hr').hide()
 
                 item += 
                 `
-                <div class="d-inline-flex float-left mb-2 text-center" id="list-search">
+                <div class="d-inline-flex float-left mt-2 mb-2 text-center" id="list-search">
                   <a href="#" class="card-link" id="elevacao">
                    <div id="div-imgs">
                      <img src="imagens/${produtos[index].img}" class="img-fluid">

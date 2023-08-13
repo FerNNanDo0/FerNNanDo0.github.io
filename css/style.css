@@ -141,7 +141,10 @@ footer {
 }
 footer label {
     color: white;
+    /* border:1px solid red */
 }
+/* footer a {
+} */
 
 /* ***********************************
 config para diferentes tamanhos de tela */
